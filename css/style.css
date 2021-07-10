@@ -26,6 +26,7 @@ body{
 #area-cabecalho{
     background-color: #0984e3;
     padding: 15px;
+    width: 100%;
 }
 
 #area-logo, #area-menu{
@@ -33,18 +34,18 @@ body{
 }
 
 #area-principal{
-    width: 920px;
+    width: 57.5em;
     margin: 0px auto;
     padding: 15px;
 }
 
 #area-postagens{
-    width: 660px;
+    width: 41.5em;
     float: left;
 }
 
 #area-lateral{
-    width: 240px;
+    width: 14.8em;
     float: right;
 }
 
