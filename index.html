@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PlaneBlog</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script defer src="js/subtitulo.js"></script>
-  </head>
-  <body>
-    <header id="area-cabecalho">
-      <section id="area-logo">
-        <h1>Plane<span class="branco">Blog</span></h1>
-        <br />
-        <div id="subtitulo">
-          <p>Voe pelo Blog e descubra tudo sobre aviões</p>
-        </div>
-      </section>
 
-      <section id="area-menu">
-        <a href="/">Home</a>
-        <a href="/historia/">História</a>
-        <a href="/como-funciona/">Como Funciona?</a>
-        <a href="/filmes/">Filmes</a>
-      </section>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> PlaneBlog </title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/subtitulo.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
 
+<body>
+  <header id="area-cabecalho">
+    <div id="area-logo">
+      <h1>Plane<span class="branco">Blog</span></h1>
+      <br />
+      <div id="subtitulo">
+        <p>Voe pelo Blog e descubra tudo sobre aviões</p>
+      </div>
+    </div>
+    <div id="area-menu">
+      <a href="/">Home</a>
+      <a href="/historia/">História</a>
+      <a href="/como-funciona/">Como Funciona?</a>
+      <a href="/filmes/">Filmes</a>
+    </div>
+  </header>
+
+  <section id='content'>
     <main id="area-principal">
       <section id="area-postagens">
 
         <!-- Abertura Postagem -->
-        <section class="postagem">
+        <div class="postagem">
           <h2>
             <a href="/postagens/Curiosidades-Sobre-Avioes/">Curiosidades sobre aviões</a>
           </h2>
           <span class="data-postagem">Postado em 9 de Julho de 2021</span>
           <ignore>
-            <p>
-              <img width="620px" src="img/img3.jpg" />
-              <b
-                >1. Bagagens perdidas e não reclamadas são doadas ou
-                leiloadas</b
-              ><br />
+            <p class="text-ignore">
+              <img width="100%" src="img/img3.jpg" />
+              <b>1. Bagagens perdidas e não reclamadas são doadas ou
+                leiloadas</b><br />
               Quase 2 milhões de bagagens despachadas em aviões são perdidas
               todos os anos no mundo. A grande maioria é recuperada. Outras não
               são encontradas e o passageiro recebe uma indenização da companhia
@@ -53,7 +56,7 @@
               provavelmente foi esse o destino dela… <br />
               <hr />
               <br />
-              <img width="620px" src="img/img4.jpg" />
+              <img width="100%" src="img/img4.jpg" />
               <b>2. É difícil calcular a duração exata de uma viagem</b><br />
               Existem diversas variáveis que influenciam no tempo de voo, como
               distância, altitude, tipo de aeronave, clima (especialmente a
@@ -71,54 +74,14 @@
           </ignore>
           <p>
             Fonte:
-            <a
-              href="https://www.melhoresdestinos.com.br/curiosidades-viagens-aviao.html"
-              target="_blank"
-              >Melhores Destinos</a
-            >(Texto com Alterações)
+            <a href="https://www.melhoresdestinos.com.br/curiosidades-viagens-aviao.html" target="_blank">Melhores
+              Destinos</a>(Texto com Alterações)
           </p>
-          <l id="third_content">Ler mais</l>
-        </section>
+          <l id="third_content"> Ler mais</l>
+        </div>
         <!-- Fechamento Postagem -->
-
-        <!-- Abertura Postagem -->
-        <section class="postagem">
-          <h2><a href="/postagens/Airbus-A350-XWB/">Airbus A350 XWB</a></h2>
-          <span class="data-postagem">Postado em 14 de Junho de 2021</span>
-          <img width="620px" src="img/img1.jpeg" />
-          <p id="content1">
-            O avião mais moderno: Airbus A350 XWB é uma aeronave widebody
-            bimotor turbofan, desenvolvida e fabricada pela Airbus. O A350 é a
-            primeira aeronave fabricada pela Airbus com fuselagem e asas feitas
-            principalmente com fibra de carbono e polímero. Sua capacidade de
-            passageiros varia de 280 a 366 passageiros.
-          </p>
-          <l id="first_content">Ler mais</l>
-        </section>
-        <!-- Fechamento Postagem -->
-
-        <!-- Abertura Postagem -->
-        <section class="postagem">
-          <h2>
-            <a href="postagens/Embraer-C-390-Millennium/"
-              >Embraer C-390 Millennium</a
-            >
-          </h2>
-          <span class="data-postagem">Postado em 14 de Junho de 2021</span>
-          <img width="620px" src="img/img2.jpeg" />
-          <p id="content2">
-            O Embraer C-390 Millennium é um avião para transporte
-            tático/logístico e reabastecimento em voo, desenvolvido e fabricado
-            pela Embraer Defesa e Segurança, subsidiária do grupo brasileiro
-            Embraer. Sua designação de projeto, desenvolvimento e até o início
-            de produção era Embraer KC-390. Em novembro de 2019, recebeu da
-            Embraer a nova designação Embraer C-390 Millennium.
-          </p>
-          <l id="second_content">Ler mais</l>
-        </section>
-        <!-- Fechamento Postagem -->
-
       </section>
+      
       <section id="area-lateral">
         <div class="conteudo-lateral">
           <h3>Postagens Recentes</h3>
@@ -147,9 +110,10 @@
           </div>
         </div>
       </section>
-
-      <footer id="rodape">1º D EM Befama 2021</footer>
     </main>
-  </body>
-  <script src="js/lermais.js"></script>
+  </section>
+  <footer id="rodape">1º D EM Befama 2021</footer>
+</body>
+<script src="js/lermais.js"></script>
+
 </html>

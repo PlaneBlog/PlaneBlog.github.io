@@ -1,18 +1,25 @@
 /* Limpar formatações padrões */
-
 *{
-    margin: 0px;
-    padding: 0px;
+    box-sizing: border-box;
 }
-
 body{
-    font-size: 1em;
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background: #e6e6e6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+header{
+    background-color: #0984e3;
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
 /* Layout */
-
+#content{
+    width: 100%;
+}
 #area-logo p{
     color: white;
     margin: 0 0 0 -340px;
@@ -22,31 +29,32 @@ body{
 #area-cabecalho h1, #area-menu{
     text-align: center;
 }
-
-header{
-    background-color: #0984e3;
-    padding: 15px;
-    margin: 0;
-    width: 98%;
+#area-logo{
+    width: 100%;
 }
+#area-menu{
+    width: 100%;
+}
+
 
 #area-logo, #area-menu{
     padding: 10px;
+    box-sizing: border-box;
 }
 
 #area-principal{
-    width: 57.5em;
+    width: 85%;
     margin: 0px auto;
     padding: 15px;
 }
 
 #area-postagens{
-    width: 41.5em;
+    width: 70%;
     float: left;
 }
 
 #area-lateral{
-    width: 14.8em;
+    width: 25%;
     float: right;
 }
 
@@ -69,8 +77,12 @@ header{
 #rodape{
     clear: both;
     text-align: center;
-    padding: 15px;
     background: #ccc;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #363636;
+    box-sizing: border-box;
 }
 
 /* Menu */
@@ -108,10 +120,13 @@ l{
 h1{
     color: #4e4e4e;
     font-size: 2.5em;
+    margin: 0;
 }
 
 h2{
     color: #0984e3;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
 h3{
@@ -119,6 +134,7 @@ h3{
     background: #1e3799;
     padding: 5px;
     margin-bottom: 5px;
+    margin: 0;
 }
 
 .branco{
@@ -145,4 +161,49 @@ h3{
 
 img{
     margin-bottom: 10px;
+}
+@media (max-width: 700px) {
+    .conteudo-lateral h3{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .texto-lateral p{
+        font-size: 12px;
+    }
+    .postagem h2{
+        font-size: 18px;
+    }
+    .text-ignore{
+        font-size: 12px;
+    }
+    #area-postagens {
+        width: 60%;
+    }
+    #area-lateral {
+        width: 35%;
+    }
+}
+@media (max-width: 600px) {
+    .conteudo-lateral h3{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .texto-lateral p{
+        font-size: 12px;
+    }
+    .postagem h2{
+        font-size: 18px;
+    }
+    .text-ignore{
+        font-size: 12px;
+    }
+    #area-postagens {
+        width: 60%;
+    }
+    #area-lateral {
+        width: 35%;
+    }
+    #area-principal{
+        width: 95%;
+    }
 }
