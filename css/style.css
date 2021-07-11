@@ -23,10 +23,11 @@ body{
     text-align: center;
 }
 
-#area-cabecalho{
+header{
     background-color: #0984e3;
     padding: 15px;
-    width: 100%;
+    margin: 0;
+    width: 98%;
 }
 
 #area-logo, #area-menu{

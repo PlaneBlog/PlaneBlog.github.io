@@ -19,11 +19,11 @@ body{
     transition: 5s;
 }
 
-#area-cabecalho{
+header{
     background-color: #0984e3;
     padding: 15px;
     text-align: center;
-    width: 100%;
+    width: 98%;
 }
 
 #area-logo, #area-menu{

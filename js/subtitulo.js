@@ -1,4 +1,7 @@
 const subtitulo = document.querySelector('#subtitulo p')
+const body = document.querySelector('body')
 
-subtitulo.style.margin = '0px'
-subtitulo.style.textAlign = 'center'
+body.onload = () => {
+  subtitulo.style.margin = '0px'
+  subtitulo.style.textAlign = 'center'
+}
